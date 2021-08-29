@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="events.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 onmouseover="thingOne(this)" onmouseout="thingTwo(this)">Events</h1>
+
+    <button onclick="addClicks()">Click me</button>
+    <p id="clicks"></p>
+
+    <form action="">
+        <textarea cols="30" rows="10"onkeydown="keyDown(this)" onkeyup="keyUp(this)"></textarea>
+    </form>
+
+    <button onclick="flipSwitch(this)" id="light">Off</button>
+    <img src="images/bulboff.png" alt="" id="bulb" style="width: 25%;">
+
+</body>
+</html>

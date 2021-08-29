@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+.bike-img {
+    width: 100%;
+}
+
+#score-board {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    text-align: center;
+    /* border: 1px solid black;
+    padding: 15px; */
+}
+
+#game-board {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+#bikes {
+    /* border: 1px solid purple; */
+    width: 49%;
+}
+
+#guesses {
+    width: 49%;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding-top: 200px;
+}
+
+#guesses div {
+    margin: 20px;
+}

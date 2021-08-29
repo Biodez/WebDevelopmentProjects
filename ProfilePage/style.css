@@ -1,0 +1,311 @@
+/* For Navigation bar */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(66, 64, 64);
+    padding: 5px;
+    height: 50px;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 10px
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    border: 2px solid black;
+    color: white;
+    background-color: aqua;
+    box-shadow: 2px 3px 2px black;
+    margin: 130px;
+}
+
+
+/* For User Card */
+
+.top {
+    margin-top: 20px;
+    margin-left: 330px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    display: flex;
+    width: 430px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.top-nav {
+    width: inherit;
+    height: 80px;
+    background-color: cadetblue;
+}
+
+.user {
+    position: absolute;
+    top: 140px;
+    left: 370px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid grey;
+    border-radius: 40px;
+    padding: 2px;
+}
+
+h2 {
+    position: absolute;
+    top: 200px;
+    left: 370px;
+}
+
+.map-name {
+    display: flex;
+    position: absolute;
+    top: 240px;
+    left: 363px;
+    align-items: center;
+}
+
+.mapname, .map {
+    height: 13px;
+}
+
+.map-name, .text {
+    margin: 8px;
+}
+
+.text-2 {
+    position: absolute;
+    top: 260px;
+    left: 370px;
+}
+
+.text-2, .block-text {
+    display: block;
+}
+
+.gear {
+    display: flex;
+    position: absolute;
+    top: 310px;
+    left: 363px;
+    align-items: center;
+}
+
+.gear, .gear-pic {
+    height: 11px;
+}
+
+.gear, .gear-text {
+    margin: 8px;
+    font-size: 13px;
+}
+
+/* Education panel */
+.education {
+    margin-left: 330px;
+    margin-right: 15px;
+    display: flex;
+    width: 430px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.edu-text{
+    color: white;
+    position: absolute;
+    left: 370px;
+}
+
+.coding-dojo {
+    width: inherit;
+    height: 50px;
+    background-color: black;
+}
+
+.course-text {
+    position: absolute;
+    top: 420px;
+    left: 370px;
+}
+
+.course-text, .course {
+    color: black;
+}
+
+.course-text, .year {
+    display: block;
+    color: gray;
+}
+
+/* Connection Request Panel */
+.connections {
+    border: 1px solid gray;
+    background-color: white;
+    position: absolute;
+    right: 430px;
+    top: 99.5px;
+    width: 220px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.connection-request {
+    background-color: black;
+    width: inherit;
+    height: 40px;
+}
+
+.con-text {
+    position: absolute;
+    white-space: nowrap;
+    top: -5px;
+    right: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.con {
+    color: white;
+    font-size: small;  
+}
+
+.two {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: gray;
+    margin-right: 5px;
+}
+
+.todd-container {
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    align-items: center;
+}
+
+.todd-img {
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+    border-radius: 100%;
+}
+
+.todd-text {
+    padding-right: 40px;
+}
+
+.accept {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+.phil-container {
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    top: 60px;
+    align-items: center;
+}
+
+.phil-container, .phil-text {
+    margin-right: 46px;
+}
+
+.phil-text {
+    white-space: nowrap;
+}
+
+.conn {
+    border: 1px solid gray;
+    background-color: white;
+    position: absolute;
+    right: 430px;
+    top: 240px;
+    width: 220px;
+    height: 282px;
+}
+
+.ur-connections {
+    background-color: black;
+    width: inherit;
+    height: 40px;
+}
+
+.container-name {
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    align-items: center;
+}
+
+.img {
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+.container-name-2 {
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    top: 60px;
+    align-items: center;
+}
+
+.container-name-3 {
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    top: 90px;
+    align-items: center;
+}
+
+.container-name-4 {
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    align-items: center;
+}
+
+.bottom {
+    width: inherit;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+
+.more {
+    position: absolute;
+    left: 5px;
+
+}

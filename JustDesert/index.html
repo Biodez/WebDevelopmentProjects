@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Desert</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="top-nav">
+        <h4 class="just-desert">
+            Just<span class="desert">Desert</span>
+        </h4>
+        <div id="btns">
+            <button onclick="hideButton(this)" id="join">Join</button>
+            <button id="login">Login</button>
+        </div>
+    </div>
+    <div id="middle-nav">
+        <div id="go-nav">
+            <input type="text" name="search" id="search" placeholder="SEARCH"><button onclick="alertUser()" id="go-button">GO</button>
+        </div>
+        <div id="menu">
+            <div class="items">
+                <img src="Images/cake.png" alt="cakes" class="menu-img">
+                <p>Cake</p>
+            </div>
+            <div class="items">
+                <img src="Images/ice-cream.png" alt="ice-cream" class="menu-img">
+                <p>Ice Cream</p>
+            </div>
+            <div class="items">
+                <img src="Images/cookie.png" alt="cookie" class="menu-img">
+                <p>Cookies</p>
+            </div>
+            <div class="items">
+                <img src="Images/pie.png" alt="pie" class="menu-img">
+                <p>Pie</p>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div id="left-nav">
+            <div class="recipe-display">
+                <h4 class="recipe-tag">Reccipe of the Day</h4>
+                <img src="Images/orange-tart.jpg" alt="orange-tart" class="recipe-image">
+            </div>
+            <div class="description">
+                <div class="author">
+                    <h5>Orange Tea Jelly Tart</h5>
+                    <h5>by: <a href="#">yuripiano</a></h5>
+                </div>
+                <div class="like">
+                    <img src="Images/heart.png" alt="heart" class="like-img">
+                    <h5 class="likes">68</h5>
+                </div>
+            </div>
+            <div id="full-recipe">
+                <a class="full-recipe" href="#">See Full Recipe</a>
+            </div>
+        </div>
+        <div id="right-nav">
+            <div id="recommend">
+                <h5>Recommended for you:</h5>
+            </div>
+            <div id="underline"></div>
+            <div class="recipe-display">
+                <img src="Images/macarons.jpg" alt="macarons" class="recipe-image-1">
+            </div>
+            <div class="description">
+                <div class="author">
+                    <h5>Macarons</h5>
+                    <h5>by: <a href="#">EmilieW</a></h5>
+                </div>
+                <div class="like">
+                    <img src="Images/heart.png" alt="heart" class="like-img">
+                    <h5 class="likes">212</h5>
+                </div>
+            </div>
+            <div class="recipe-display">
+                <img src="Images/creme-brulee.jpg" alt="macarons" class="recipe-image-1">
+            </div>
+            <div class="description">
+                <div class="author">
+                    <h5>Creme brulee</h5>
+                    <h5>by: <a href="#">MarisaG</a></h5>
+                </div>
+                <div class="like">
+                    <img src="Images/heart.png" alt="creme-brulee" class="like-img">
+                    <h5 class="likes">32</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>

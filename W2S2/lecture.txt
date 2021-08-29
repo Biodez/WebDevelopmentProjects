@@ -1,0 +1,39 @@
+House Keeping
+- Reading 
+- Assignments and purposes
+- Discussion questions
+
+The value of JavaScript
+- Demo Players
+- Demo Game
+- Demo Events
+
+JavaScript
+
+- Primitive data types
+    - numbers
+    - strings
+    - boolean
+
+- Variables
+    - var, let, const
+
+- Operators
+    - =
+    - ==,===
+    - +,-
+    - / *
+    - %
+    - >, <, >=, <=
+
+- Functions
+    - Define
+    - Parts of
+    - Calling
+
+- Events
+    - Click
+    - Hover
+    - Key press
+
+Build Events

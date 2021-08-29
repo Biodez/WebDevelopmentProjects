@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div id="top-nav">
+        <h4 id="title">DojoWeather</h4>
+        <div id="city-list">
+            <ul onclick="alert('Loading the weather report')">
+                <li>Burbank</li>
+                <li>Chicago</li>
+                <li>Dallas</li>
+                <li>Tennessee</li>
+                <li>New York</li>
+            </ul>
+        </div>
+    </div>
+    <div id="container">
+        <div id="temp-nav">
+            <h4>San Jose</h4>
+            <div>
+                <label for="temperature" id="temp-label">show temperatures in </label>
+                <select name="temp-types" id="temp-types" onchange="tempConvert(this)">
+                    <option value="celcius">&#176;C</option>
+                    <option value="farenheit">&#176;F</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+        <div id="weather">
+            <div class="days">
+                <p>Today</p>
+                <img class="weather-imgs" src="Imgs/some_rain.png" alt="some_rain">
+                <h6 class="weather-text">some rain</h6>
+                <div class="daily-degrees">
+                    <h5 class="red-degree"><span class="tempConvert">24</span>&#176;</h5>
+                    <h5 class="blue-degree"><span class="tempConvert">18</span>&#176;</h5>
+                </div>
+            </div>
+            <div class="days">
+                <p>Tomorrow</p>
+                <img class="weather-imgs" src="Imgs/some_sun.png" alt="some_sun">
+                <h6 class="weather-text">some sun</h6>
+                <div class="daily-degrees">
+                    <h5 class="red-degree"><span class="tempConvert">27</span>&#176;</h5>
+                    <h5 class="blue-degree"><span class="tempConvert">19</span>&#176;</h5>
+                </div>
+            </div>
+            <div class="days">
+                <p>Friday</p>
+                <img class="weather-imgs" src="Imgs/some_clouds.png" alt="some_sun">
+                <h6 class="weather-text">some clouds</h6>
+                <div class="daily-degrees">
+                    <h5 class="red-degree"><span class="tempConvert">21</span>&#176;</h5>
+                    <h5 class="blue-degree"><span class="tempConvert">16</span>&#176;</h5>
+                </div>
+            </div>
+            <div class="days">
+                <p>Saturday</p>
+                <img class="weather-imgs" src="Imgs/some_sun.png" alt="some_sun">
+                <h6 class="weather-text">some sun</h6>
+                <div class="daily-degrees">
+                    <h5 class="red-degree"><span class="tempConvert">26</span>&#176;</h5>
+                    <h5 class="blue-degree"><span class="tempConvert">21</span>&#176;</h5>
+                </div>
+            </div>
+        </div>
+        <div id="cookie-nav">
+            <img id="cookie-img" src="Imgs/cookie.png" alt="cookie">
+            <div id="cookie-text">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the editable ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button id="accept" type="submit">I Accept</button>
+        </div>
+    </div>
+</body>
+</html>
